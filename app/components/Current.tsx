@@ -36,7 +36,7 @@ const Current = ({ data }:CurrentProps) => {
         <div>
             <p className="text-5xl text-white">
                 {data.current.temp_c.toFixed()}
-                <span>*</span>
+                <span>°C</span>
             </p>
             <span>
                 {data.current.condition.text}
